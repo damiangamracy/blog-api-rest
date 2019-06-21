@@ -17,7 +17,7 @@ class App {
     // support for application/json
     this.app.use(bodyParser.json());
 
-    //    srouting
+    //    routing
     this.app.use('/', new ArticleRoute().router);
     this.app.use('/', new HealthRoute().router);
   }

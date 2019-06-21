@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 class ArticleController {
-  public static list(req: Request, res: Response): void {
+  public static list(_req: Request, res: Response): void {
     res.json({
       message: 'article / list',
     });
