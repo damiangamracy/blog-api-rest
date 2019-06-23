@@ -11,7 +11,7 @@ class App {
     this.config();
   }
 
-  private config() {
+  private config(): void {
     this.app.set('port', process.env.SERVER_PORT || 3000);
 
     // support for application/json
